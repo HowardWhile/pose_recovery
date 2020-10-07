@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="pose_recovery_pkg" type="pose_recovery_node" name="pose_recovery" output="screen">
+		<param name="param_file_path" value="$(find pose_recovery_pkg)/param/pose_recovery.json" />
+
+		<remap from="pose_recovery/initialpose" to="initialpose"/>
+	</node>
+
+	<!-- <include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch"/> -->
+
+</launch>

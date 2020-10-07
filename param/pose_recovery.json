@@ -1,0 +1,13 @@
+{
+    "base_frame_id": "base_link",
+    "covariance_theta": 10.0,
+    "covariance_x": 0.1,
+    "covariance_y": 0.1,
+    "file_buffer": 2,
+    "file_name": "robot_pose",
+    "initial": false,
+    "map_frame_id": "map",
+    "period": 0.5,
+    "reset": false,
+    "save": false
+}
